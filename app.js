@@ -28,16 +28,16 @@ function product(number1, number2){
 product(a,b);
 
 const product1 = (number1, number2) => {
-    console.log(number1 / number2);
+    console.log(number1 * number2);
 }
 product1(a,b);
 
 function quotient(this1, this2){
-    console.log(this1, this2);
+    console.log(this1 / this2);
 }
 quotient(a,b);
 
 const quotient1 =(this1, this2) => {
-    console.log(this1, this2);
+    console.log(this1 / this2);
 }
 quotient1(a,b);
